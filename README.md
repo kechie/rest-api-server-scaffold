@@ -53,6 +53,7 @@ This serves as the scaffold for building a RESt API with authentication using pg
    JWT_SECRET=your_jwt_secret
    TOKEN_EXPIRATION=1d
    API_PORT=3023
+   NODE_ENV=development
    ```
 
    ```bash
