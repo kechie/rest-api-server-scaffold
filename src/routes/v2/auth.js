@@ -22,3 +22,7 @@ router.post(
   authController.register);
 
 module.exports = router;
+
+//if (process.env.NODE_ENV !== 'production') {
+//  router.post('/register', authController.register);
+//}

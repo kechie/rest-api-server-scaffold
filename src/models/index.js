@@ -58,6 +58,7 @@ async function syncDatabase() {
     await sequelize.sync({ alter: true }); // Use { force: true } to drop and recreate tables (careful!)
     console.log('Database synced successfully');
   } catch (error) {
+    await sequelize.sync({ alter: true }); // Use { force: true } to drop and recreate tables (careful!)
     console.error('Error syncing database:', error);
   }
 }

@@ -10,10 +10,3 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 module.exports = router;
-
-// Route for user registration
-// router.post('/register', authController.register.bind(authController));
-// Registration route (disabled in production)
-//if (process.env.NODE_ENV !== 'production') {
-//  router.post('/register', authController.register.bind(authController));
-//}
