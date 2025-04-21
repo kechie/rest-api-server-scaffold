@@ -1,3 +1,6 @@
+//file models/index.js
+// This file initializes Sequelize and defines the database connection.
+// It also imports and initializes models, and exports them for use in the application.
 const { Sequelize, DataTypes } = require('sequelize');
 require('dotenv').config(); // Load .env variables
 
