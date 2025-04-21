@@ -76,6 +76,18 @@ The server will listen on the specified port (default is 3000).
 - **POST /api/auth/login** - Login an existing user
 - **GET /api/users/profile** - Get user profile (requires authentication)
 
+## Creating a new repo from the scaffold
+
+```bash
+git branch newbranch
+git checkout newbranch
+git git clone --branch newbranch --single-branch origin-url (e.g. git remote -v)
+git branch -m main
+git remote remove origin or origin-name (e.g git remote -v)
+git remote add origin (origin url e.g. new github repository url or new self hosted repository url)
+git push origin master
+```
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
